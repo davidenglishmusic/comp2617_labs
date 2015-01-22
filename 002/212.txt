@@ -1,0 +1,11 @@
+// What would be printed following each statement. If nothing, answer nothing. x = 2, y = 3
+
+a) cout << x; // 2
+b) cout << x + x; // 4
+c) cout << "x="; // x=
+d) cout << "x = " << x; // x = 2
+e) cout << x + y << " = " << y + x; // 5 = 5
+f) z = x + y; // nothing
+g cin >> x >> y; // nothing
+h) // cout << "x + y = " << x + y; // nothing
+i) cout << "\n"; a newline
