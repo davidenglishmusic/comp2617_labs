@@ -22,7 +22,10 @@ void Employee::setLastName(string name)
 void Employee::setMonthlySalary(int salary)
 {
     if (salary >= 0){
-        monthlySalary = salary;
+      monthlySalary = salary;
+    }
+    else{
+      monthlySalary = 0;
     }
 }
 
