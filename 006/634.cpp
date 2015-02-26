@@ -9,7 +9,7 @@ void play(bool &, int);
 int main()
 {
   const int LOWER_LIMIT = 1;
-  const int UPPER_LIMIT = 1001;
+  const int UPPER_LIMIT = 1000;
 
   default_random_engine engine(static_cast<unsigned int>(time(0)));
   uniform_int_distribution<unsigned int> randomInt(LOWER_LIMIT, UPPER_LIMIT);
