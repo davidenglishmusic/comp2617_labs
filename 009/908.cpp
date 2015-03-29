@@ -23,7 +23,7 @@ int main()
   for ( auto date : dates){
     date.print();
     cout << " incremented by 1 day sets the new date to: ";
-    date.incrementDate();
+    date.nextDay();
     date.print();
     cout << endl;
   }

@@ -70,7 +70,7 @@ void Date::print() const
   cout << getMonth() << '/' << getDay() << '/' << getYear();
 } // end function print
 
-void Date::incrementDate()
+void Date::nextDay()
 {
   incrementDay();
 }
